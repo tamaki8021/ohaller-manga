@@ -1,0 +1,18 @@
+{
+  "name": "oshaller-manga",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tamaki8021/ohaller-manga.git",
+  "author": "hbk2002320@gmail.com <hbk2002320@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "postcss css/tailwind.css -o css/index.css",
+    "build": "NODE_ENV=production postcss css/tailwind.css -o css/index.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.11",
+    "postcss-cli": "^9.0.2",
+    "tailwindcss": "^2.2.19"
+  }
+}
